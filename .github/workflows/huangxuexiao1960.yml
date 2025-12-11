@@ -2,7 +2,7 @@ name: huangxuexiao1960
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 1/6 * * *'
+    - cron: '35 4/6 * * *'
 
 jobs:
   build:
@@ -12,19 +12,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: huangxuexiao1960
         env:
-          p3855: ${{ secrets.p3855 }}
+          ltfx783: ${{ secrets.ltfx783 }}
         run: |
-          echo $p3855 | jq -r .qqvpa06 | /bin/bash
-          echo $gsurx64975 | jq -r .h3 | /bin/bash
-          echo $m836 | jq -r .riyfk22 | /bin/bash
-          echo $jy4300 | jq -r .q338 | /bin/bash
-          echo $zdpvw1 | jq -r .p63 | /bin/bash
-          echo $t7328 | jq -r .dm86 | /bin/bash
-          echo $yh81 | jq -r .ybolr0323 | /bin/bash
-          echo $lyqti57574 | jq -r .bwao286 | /bin/bash
-          echo $pe91 | jq -r .gfk81337 | /bin/bash
-          echo $hgw94148 | jq -r .lfwx1 | /bin/bash
-          echo $mc61693 | jq -r .ybjo0244 | /bin/bash
-          echo $vwuo8 | jq -r .t64 | /bin/bash
-          echo $cbj65568 | jq -r .cgter00 | /bin/bash
+          echo $ltfx783 | jq -r .mm181 | /bin/bash
+          echo $nj7818 | jq -r .wpjt93937 | /bin/bash
+          echo $leafj2 | jq -r .an6 | /bin/bash
+          echo $xmmb46517 | jq -r .hays021 | /bin/bash
+          echo $qxmm0747 | jq -r .u2577 | /bin/bash
+          echo $yhvcg283 | jq -r .weib75 | /bin/bash
+          echo $h512 | jq -r .feie0893 | /bin/bash
+          echo $rt13 | jq -r .oszf230 | /bin/bash
+          echo $xslvm2330 | jq -r .r9 | /bin/bash
 
