@@ -1,9 +1,9 @@
 name: huangxuexiao1960
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 4/6 * * *'
-
+    - cron: '28 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,15 +12,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: huangxuexiao1960
         env:
-          ltfx783: ${{ secrets.ltfx783 }}
+          vd515: ${{ secrets.vd515 }}
         run: |
-          echo $ltfx783 | jq -r .mm181 | /bin/bash
-          echo $nj7818 | jq -r .wpjt93937 | /bin/bash
-          echo $leafj2 | jq -r .an6 | /bin/bash
-          echo $xmmb46517 | jq -r .hays021 | /bin/bash
-          echo $qxmm0747 | jq -r .u2577 | /bin/bash
-          echo $yhvcg283 | jq -r .weib75 | /bin/bash
-          echo $h512 | jq -r .feie0893 | /bin/bash
-          echo $rt13 | jq -r .oszf230 | /bin/bash
-          echo $xslvm2330 | jq -r .r9 | /bin/bash
+          echo $vd515 | jq -r .vcr12 | /bin/bash
+          echo $uwhty33 | jq -r .ocyr94425 | /bin/bash
+          echo $twv39 | jq -r .imxos643 | /bin/bash
+          echo $xeet134 | jq -r .ui71368 | /bin/bash
+          echo $hcat1 | jq -r .jnzw1407 | /bin/bash
+          echo $miwtp2041 | jq -r .kas0 | /bin/bash
+          echo $j42 | jq -r .pbt242 | /bin/bash
+          echo $jkb9202 | jq -r .tuog644 | /bin/bash
+          echo $rjmkg50 | jq -r .md64781 | /bin/bash
+          echo $sm8315 | jq -r .zw265 | /bin/bash
+          echo $owre4279 | jq -r .jvx4 | /bin/bash
+          echo $xxobq5014 | jq -r .zywn024 | /bin/bash
 
